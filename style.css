@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main_1{
+    width: 100%;
+    height: 1400px;
+}
+#main_golovn{
+    width: 100%;
+    height: 1200px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: url(./img/1616536865_22-p-krasno-chernii-fon-26.jpg) no-repeat;
+}
+#main_golovn h1{
+    color: white;
+}
+#main_2{
+    width: 100%;
+    height: 1400px;
+    background: url(./img/854911.jpg)no-repeat;
+    background-size: 130%;
+    background-position-x: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    min-width: 2000px;
+}
+#main_3{
+    width: 100%;
+    height: 1400px;
+    background: url(./img/Kak-skachat-Minecraft-besplatno-_1550779670.jpg)no-repeat;
+    background-size: 130%;
+    background-position-x: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    min-width: 2000px;
+}
+#main_4{
+    width: 100%;
+    height: 1400px;
+    background: url(./img/1451128206159639355.jpg)no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    min-width: 2000px;
+}
+#main_5{
+    width: 100%;
+    height: 1400px;
+    background: url(./img/221232_nGlynaSQb9_mhkej_croper_ru.jpeg)no-repeat;
+    background-size: 130%;
+    background-position-x: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    min-width: 2000px;
+}
+select{
+    position: absolute;
+    top: 44px;
+    left: 50px;
+    width: 220px;
+    height: 70px;
+    background-color: rgb(195, 195, 195);
+    border-radius: 15px;
+    font-size: 28px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.container{
+    width: 1305px;
+    height: 1112px;
+    background: #00000078;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+.Logo{
+    width: 100%;
+    height: 612px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./img/860734.jpg);
+    background-size: 100%;
+}
+.Logo_2{
+    width: 100%;
+    height: 612px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./img/458653-minecraft-block-wallpaper-top-free-minecraft-block-background.jpg);
+    background-size: 100%;
+}
+.Logo_3{
+    width: 100%;
+    height: 612px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./img/csgo.png) no-repeat;
+    background-size: 120%;
+}
+.Logo_4{
+    width: 100%;
+    height: 612px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./img/1625838060_24-kartinkin-com-p-geralt-iz-rivii-oboi-krasivie-26.jpg) no-repeat;
+    background-size: 120%;
+}
+.Logo_info_main{
+    width: 93%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: flex-start;
+}
+.Logo_info_main_2{
+    width: 53%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: flex-start;
+}
+.Logo_info_main_3{
+    width: 93%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: flex-start;
+}
+.Logo_info{
+    width: 550px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content:space-between ;
+}
+.Logo_info_3{
+    width: 550px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content:space-between ;
+}
+.img_1{
+    width: 506px;
+    height: 157px; 
+}
+.img_1_2{
+    width: 550px;
+}
+.img_1_4{
+    width: 550px;
+}
+.button_1{
+    width: 266px;
+    height: 85px;
+    background: #DC9222;
+    border: 5px solid white;
+    color: white;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 28px;
+    border-radius: 30px;
+    transition:.3s;
+}
+.button_2{
+    width: 266px;
+    height: 85px;
+    background: white;
+    border: 5px solid #DC9222;
+    color: #DC9222;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 28px;
+    border-radius: 30px;
+    line-height: 30px;
+    transition:.3s;
+}
+.button_1:hover{
+    background: white;
+    border: 5px solid #DC9222;
+    color: #DC9222;
+    box-shadow: 0px 0px 15px 9px rgba(255,255,255,0.51);
+}
+.button_2:hover{
+    background: #DC9222;
+    border: 5px solid white;
+    color: white;
+    box-shadow: 0px 0px 15px 9px rgba(255,255,255,0.51);
+}
+.button_1_2{
+    width: 266px;
+    height: 85px;
+    background: #3B8526;
+    border: 5px solid white;
+    color: white;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 28px;
+    border-radius: 30px;
+    transition:.3s;
+}
+.button_2_2{
+    width: 266px;
+    height: 85px;
+    background: white;
+    border: 5px solid #3B8526;
+    color: #3B8526;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 28px;
+    border-radius: 30px;
+    line-height: 30px;
+    transition:.3s;
+}
+.button_1_2:hover{
+    background: white;
+    border: 5px solid #3B8526;
+    color: #3B8526;
+    box-shadow: 0px 0px 15px 9px rgba(255,255,255,0.51);
+}
+.button_2_2:hover{
+    background: #3B8526;
+    border: 5px solid white;
+    color: white;
+    box-shadow: 0px 0px 15px 9px rgba(255,255,255,0.51);
+}
+.button_1_3{
+    width: 266px;
+    height: 85px;
+    background: #2B486B;
+    border: 5px solid white;
+    color: white;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 28px;
+    border-radius: 30px;
+    transition:.3s;
+}
+.button_2_3{
+    width: 266px;
+    height: 85px;
+    background: white;
+    border: 5px solid #2B486B;
+    color: #2B486B;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 28px;
+    border-radius: 30px;
+    line-height: 30px;
+    transition:.3s;
+}
+.button_1_3:hover{
+    background: white;
+    border: 5px solid #2B486B;
+    color: #2B486B;
+    box-shadow: 0px 0px 15px 9px rgba(255,255,255,0.51);
+}
+.button_2_3:hover{
+    background: #2B486B;
+    border: 5px solid white;
+    color: white;
+    box-shadow: 0px 0px 15px 9px rgba(255,255,255,0.51);
+}
+.button_1_4{
+    width: 266px;
+    height: 85px;
+    background: #56656C;
+    border: 5px solid white;
+    color: #C90000;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 28px;
+    border-radius: 30px;
+    transition:.3s;
+}
+.button_2_4{
+    width: 266px;
+    height: 85px;
+    background: white;
+    border: 5px solid #56656C;
+    color: #56656C;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 28px;
+    border-radius: 30px;
+    line-height: 30px;
+    transition:.3s;
+}
+.button_1_4:hover{
+    background: white;
+    border: 5px solid #56656C;
+    color: #56656C;
+    box-shadow: 0px 0px 15px 9px rgba(255,255,255,0.51);
+}
+.button_2_4:hover{
+    background: #56656C;
+    border: 5px solid white;
+    color: #C90000;
+    box-shadow: 0px 0px 15px 9px rgba(255,255,255,0.51);
+}
+.block{
+    width: 85%;
+    height: 430px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    font-family: 'Kanit', sans-serif;
+}
+.block_1{
+    width: 339px;
+    height: 353px;
+    background: rgba(171, 171, 171, 0.48);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.block_2{
+    width: 339px;
+    height: 353px;
+    background: rgba(171, 171, 171, 0.48);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.block_3{
+    width: 339px;
+    height: 353px;
+    background: rgba(171, 171, 171, 0.48);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.block h2{
+    width: 100%;
+    text-align: center;
+}
+.block h3{
+    width: 90%;
+    font-size: 20px;
+}
